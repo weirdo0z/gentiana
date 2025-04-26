@@ -1,4 +1,4 @@
-function App() {
+export default function App() {
   /** async function greet() {
     // Learn more about Tauri commands at https://tauri.app/develop/calling-rust/
     setGreetMsg(await invoke('greet', { name }))
@@ -10,5 +10,3 @@ function App() {
     </main>
   )
 }
-
-export default App
